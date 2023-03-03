@@ -23,6 +23,7 @@ df = df.drop(columns=["Book Id",
                       "Private Notes",
                       "Owned Copies"
                     ])
+
 print(df.columns.values)
 print(df.info)
 
