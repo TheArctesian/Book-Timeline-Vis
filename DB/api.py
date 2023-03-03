@@ -3,7 +3,25 @@ import json
 from waitress import serve
 
 app = Flask(__name__)
+NGRJSON = "GoodReads/GoodReadsData.json"
+NLBJSON = "LetterBox/LetterBoxTable.json"
 
+
+with open( "GoodReads/GoodReadsData.json") as f1:
+    grJ = json.load(f1)
+# Load the JSON data from the second file
+with open(NLBJSON) as f2:
+    lbJ = json.load(f2)
+
+def cleaner(JsonRef):
+    del JsonRef["schema"]
+    for i in JsonRef["data"]:
+        del i["index"]
+    return JsonRef["data"]
+
+books = cleaner(grJ)
+movies = cleaner(lbJ)
+joinedMedia = books + movies
 
 @app.after_request
 def after_request(response):
@@ -19,29 +37,31 @@ def ping():
     return 'Server is up'
 
 
+@app.route('/Media/', methods=['GET', 'POST'])
+def getMedia():
+    if request.method == 'POST':
+        res = request.json
+    else:
+        return jsonify(joinedMedia)
+    
 @app.route('/Media/Books', methods=['GET', 'POST'])
 def getBooks():
     if request.method == 'POST':
         res = request.json
-        with open("./DB/GoodReads/data.csv") as f:
-            return f
     else:
         try:
-            with open("./GoodReads/data.csv") as f:
-                return f
+            return jsonify(books) 
         except Exception as e:
             return str(e)
 
 @app.route('/Media/Movies', methods=['GET', 'POST'])
-def getBooks():
+def getMovies():
     if request.method == 'POST':
         res = request.json
-        with open("./LetterBox/data.csv") as f:
-            return f
+        return res
     else:
         try:
-            with open("./LetterBox/data.csv") as f:
-                return f
+            return jsonify(movies)
         except Exception as e:
             return str(e)
 

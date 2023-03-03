@@ -26,5 +26,5 @@ df = df.drop(columns=["Book Id",
 
 print(df.columns.values)
 print(df.info)
-
-df.to_json('data.json', orient="values")
+df.columns= ["title", "author", "year", "views"]
+df.to_json('GoodReadsData.json', orient="table")
