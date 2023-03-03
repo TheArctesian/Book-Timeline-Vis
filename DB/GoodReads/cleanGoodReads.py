@@ -27,7 +27,4 @@ df = df.drop(columns=["Book Id",
 print(df.columns.values)
 print(df.info)
 
-import csv
-
-with open('data.csv', 'w', newline='') as f:
-    df.to_csv('data.csv', index=False, header=True)
+df.to_json('data.json', orient="values")

@@ -30,4 +30,4 @@ if __name__ == "__main__":
     print(type(wdf.columns.values))
     print(wdf.shape[0])
 
-    wdf.to_json('data.json', orient="values")
+    wdf.to_json('table.json', orient="records")
