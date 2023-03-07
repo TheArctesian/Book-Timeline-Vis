@@ -1,6 +1,9 @@
-# { PROJECT NAME }
+# Book Vis
 
 ## Overview
+This project will form my blog page. It show how my concepts of things are inspired by the media that I consume. 
+
+It is inspired by obsidain and graphql
 
 ## Info
 
