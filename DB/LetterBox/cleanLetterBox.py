@@ -24,6 +24,9 @@ if __name__ == "__main__":
     ldf.insert(2, "Watched", [0] * (len(ldf)), True)
     wdf.insert(1, "Author", [""] * (len(wdf)), True)
     ldf.insert(1, "Author", [""] * (len(ldf)), True)
+    wdf.insert(0, "type", ["Movie"] * (len(wdf)), True)
+    ldf.insert(0, "type", ["Movie"] * (len(ldf)), True)
+
 
     # Add empty Author Line (#TODO add director names)
 
@@ -31,6 +34,6 @@ if __name__ == "__main__":
     print(wdf.shape[0])
 
     #TODO: Implement merging
-    df.columns= ["title", "author", "year", "views"]
+    wdf.columns= ["movie", "title", "author", "year", "views"]
     wdf.to_json('LetterBoxTable.json', orient="table")
 

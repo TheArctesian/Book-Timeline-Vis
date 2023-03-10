@@ -24,7 +24,8 @@ df = df.drop(columns=["Book Id",
                       "Owned Copies"
                     ])
 
+df.insert(0, "type", ["Book"] * (len(df)), True)
 print(df.columns.values)
 print(df.info)
-df.columns= ["title", "author", "year", "views"]
+df.columns= ['type',"title", "author", "year", "views"]
 df.to_json('GoodReadsData.json', orient="table")
