@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "@sveltejs/adapter-vercel": "^2.3.1"
-  }
-}
