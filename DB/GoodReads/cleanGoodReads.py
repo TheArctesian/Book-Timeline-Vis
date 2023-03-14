@@ -5,7 +5,6 @@ df = pd.read_csv("./goodreads_library_export.csv")
 df = df.drop(columns=["Book Id",
                       'Author l-f',
                       'Additional Authors', 
-                      'ISBN',
                       "ISBN13",
                       "My Rating",
                       "Average Rating",
@@ -27,5 +26,6 @@ df = df.drop(columns=["Book Id",
 df.insert(0, "type", ["Book"] * (len(df)), True)
 print(df.columns.values)
 print(df.info)
-df.columns= ['type',"title", "author", "year", "views"]
+df.columns= ['type',"title", "author",  "isbn","year", "views"]
+
 df.to_json('GoodReadsData.json', orient="table")
