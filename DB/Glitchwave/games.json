@@ -1,0 +1,412 @@
+{
+    "schema": {
+        "fields": [
+            {
+                "name": "index",
+                "type": "integer"
+            },
+            {
+                "name": "type",
+                "type": "string"
+            },
+            {
+                "name": "title",
+                "type": "string"
+            },
+            {
+                "name": "author",
+                "type": "string"
+            },
+            {
+                "name": "year",
+                "type": "integer"
+            },
+            {
+                "name": "views",
+                "type": "integer"
+            }
+        ],
+        "primaryKey": [
+            "index"
+        ],
+        "pandas_version": "1.4.0"
+    },
+    "data": [
+        {
+            "index": 0,
+            "type": "Game",
+            "title": "Apex Legends",
+            "author": "Respwan Entertainment",
+            "year": 2019,
+            "views": 1
+        },
+        {
+            "index": 1,
+            "type": "Game",
+            "title": "Assassin's Creed: Brotherhood",
+            "author": "Ubisoft",
+            "year": 2010,
+            "views": 1
+        },
+        {
+            "index": 2,
+            "type": "Game",
+            "title": "Assassin's Creed II",
+            "author": "Ubisoft",
+            "year": 2009,
+            "views": 1
+        },
+        {
+            "index": 3,
+            "type": "Game",
+            "title": "Assassin's Creed III",
+            "author": "Ubisoft",
+            "year": 2012,
+            "views": 1
+        },
+        {
+            "index": 4,
+            "type": "Game",
+            "title": "Assassin's Creed Odyssey",
+            "author": "Ubisoft",
+            "year": 2018,
+            "views": 1
+        },
+        {
+            "index": 5,
+            "type": "Game",
+            "title": "Before Your Eyes",
+            "author": "Goodbye World Games",
+            "year": 2021,
+            "views": 1
+        },
+        {
+            "index": 6,
+            "type": "Game",
+            "title": "Call of Duty: Black Ops III",
+            "author": "Treyarch",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 7,
+            "type": "Game",
+            "title": "Castle Crashers",
+            "author": "The Behemoth",
+            "year": 2008,
+            "views": 1
+        },
+        {
+            "index": 8,
+            "type": "Game",
+            "title": "Cyberpunk 2077",
+            "author": "CD Project Red",
+            "year": 2020,
+            "views": 1
+        },
+        {
+            "index": 9,
+            "type": "Game",
+            "title": "Doom 64",
+            "author": "Midway Games",
+            "year": 1997,
+            "views": 1
+        },
+        {
+            "index": 10,
+            "type": "Game",
+            "title": "Far Cry 3",
+            "author": "Ubisoft",
+            "year": 2012,
+            "views": 1
+        },
+        {
+            "index": 11,
+            "type": "Game",
+            "title": "Fifa 13",
+            "author": "EA",
+            "year": 2012,
+            "views": 1
+        },
+        {
+            "index": 12,
+            "type": "Game",
+            "title": "Fifa 14",
+            "author": "EA",
+            "year": 2013,
+            "views": 1
+        },
+        {
+            "index": 13,
+            "type": "Game",
+            "title": "Fifa 15",
+            "author": "EA",
+            "year": 2014,
+            "views": 1
+        },
+        {
+            "index": 14,
+            "type": "Game",
+            "title": "Fifa 16",
+            "author": "EA",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 15,
+            "type": "Game",
+            "title": "Fifa 17",
+            "author": "EA",
+            "year": 2016,
+            "views": 1
+        },
+        {
+            "index": 16,
+            "type": "Game",
+            "title": "Firewatch",
+            "author": "Campo",
+            "year": 2016,
+            "views": 1
+        },
+        {
+            "index": 17,
+            "type": "Game",
+            "title": "Goat Simulator",
+            "author": "Coffee Stain Studios",
+            "year": 2014,
+            "views": 1
+        },
+        {
+            "index": 18,
+            "type": "Game",
+            "title": "Goose Goose Duck",
+            "author": " Gaggle Studio",
+            "year": 2021,
+            "views": 1
+        },
+        {
+            "index": 19,
+            "type": "Game",
+            "title": "Grand Theft Auto V",
+            "author": "Rockstar",
+            "year": 2013,
+            "views": 1
+        },
+        {
+            "index": 20,
+            "type": "Game",
+            "title": "Halo 3",
+            "author": "Bungie",
+            "year": 2007,
+            "views": 1
+        },
+        {
+            "index": 21,
+            "type": "Game",
+            "title": "Injustice: Gods Among Us",
+            "author": "NetherRealm Studios",
+            "year": 2013,
+            "views": 1
+        },
+        {
+            "index": 22,
+            "type": "Game",
+            "title": "It Takes Two",
+            "author": "Hazelight Studios",
+            "year": 2021,
+            "views": 1
+        },
+        {
+            "index": 23,
+            "type": "Game",
+            "title": "League of Legends",
+            "author": "Riot Games",
+            "year": 2009,
+            "views": 1
+        },
+        {
+            "index": 24,
+            "type": "Game",
+            "title": "Lego Star Wars: The Complete Sage",
+            "author": "Traveller's Tales",
+            "year": 2007,
+            "views": 1
+        },
+        {
+            "index": 25,
+            "type": "Game",
+            "title": "Marvel's Spider-Man",
+            "author": "Insomniac Games",
+            "year": 2018,
+            "views": 1
+        },
+        {
+            "index": 26,
+            "type": "Game",
+            "title": "Minecraft",
+            "author": "Notch",
+            "year": 2011,
+            "views": 1
+        },
+        {
+            "index": 27,
+            "type": "Game",
+            "title": "Mirror's Edge",
+            "author": "EA",
+            "year": 2008,
+            "views": 1
+        },
+        {
+            "index": 28,
+            "type": "Game",
+            "title": "No Man's Sky",
+            "author": "Hello Games",
+            "year": 2016,
+            "views": 1
+        },
+        {
+            "index": 29,
+            "type": "Game",
+            "title": "Portal",
+            "author": "Valve",
+            "year": 2007,
+            "views": 1
+        },
+        {
+            "index": 30,
+            "type": "Game",
+            "title": "Red Dead Redemption 2",
+            "author": "Rockstar",
+            "year": 2018,
+            "views": 1
+        },
+        {
+            "index": 31,
+            "type": "Game",
+            "title": "Star Wars Battlefront",
+            "author": "EA",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 32,
+            "type": "Game",
+            "title": "Star Wars Battlefront II",
+            "author": "EA",
+            "year": 2017,
+            "views": 1
+        },
+        {
+            "index": 33,
+            "type": "Game",
+            "title": "Star Wars Knights of the Old Republic II: The Sith Lords",
+            "author": "Obsidian Entertainment",
+            "year": 2004,
+            "views": 1
+        },
+        {
+            "index": 34,
+            "type": "Game",
+            "title": "Subnautica",
+            "author": "Unknown Worlds Entertainment",
+            "year": 2018,
+            "views": 1
+        },
+        {
+            "index": 35,
+            "type": "Game",
+            "title": "Super Smash Bros Brawl",
+            "author": "Nintendo",
+            "year": 2008,
+            "views": 1
+        },
+        {
+            "index": 36,
+            "type": "Game",
+            "title": "Team Fortress 2",
+            "author": "Valve",
+            "year": 2007,
+            "views": 1
+        },
+        {
+            "index": 37,
+            "type": "Game",
+            "title": "Terraria",
+            "author": "Re-Logic",
+            "year": 2011,
+            "views": 1
+        },
+        {
+            "index": 38,
+            "type": "Game",
+            "title": "The Binding of Issac: Afterbirth",
+            "author": "Nicalis",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 39,
+            "type": "Game",
+            "title": "The Elderr Scrolls V: Skyrim",
+            "author": "Bethesda Game Studios",
+            "year": 2011,
+            "views": 1
+        },
+        {
+            "index": 40,
+            "type": "Game",
+            "title": "The Escapists",
+            "author": "Team17",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 41,
+            "type": "Game",
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "author": "Nintendo",
+            "year": 2017,
+            "views": 1
+        },
+        {
+            "index": 42,
+            "type": "Game",
+            "title": "Titanfall",
+            "author": "Respawn Entertainment",
+            "year": 2014,
+            "views": 1
+        },
+        {
+            "index": 43,
+            "type": "Game",
+            "title": "Titanfall 2",
+            "author": "Respawn Entertainment",
+            "year": 2016,
+            "views": 1
+        },
+        {
+            "index": 44,
+            "type": "Game",
+            "title": "Tom Clancy's Rainbow Six Siege",
+            "author": "Ubisoft Montreal",
+            "year": 2015,
+            "views": 1
+        },
+        {
+            "index": 45,
+            "type": "Game",
+            "title": "Tony Hawk's Pro Skater 3",
+            "author": "Neversoft",
+            "year": 2001,
+            "views": 1
+        },
+        {
+            "index": 46,
+            "type": "Game",
+            "title": "Valorant",
+            "author": "Riot Games",
+            "year": 2020,
+            "views": 1
+        }
+    ]
+}

@@ -34,6 +34,6 @@ if __name__ == "__main__":
     print(wdf.shape[0])
 
     #TODO: Implement merging
-    wdf.columns= ["movie", "title", "author", "year", "views"]
+    wdf.columns= ["type", "title", "author", "year", "views"]
     wdf.to_json('LetterBoxTable.json', orient="table")
 
