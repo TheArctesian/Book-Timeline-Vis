@@ -122,7 +122,7 @@
     background-color: var(--selection);
     width: fit-content;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1.2rem;
     margin-top: auto;
     color: var(--white);
     border-radius: 0.2rem;
@@ -173,10 +173,11 @@
   }
   .buttons {
     display: flex;
+    justify-content: center;
   }
   button {
     margin: auto;
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: var(--purple);
     border: none;
     color: var(--white);
